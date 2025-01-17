@@ -4,7 +4,7 @@
 <style>
 .myDiv {
   border: 5px outset Black;
-  background-color: FireBrick;    
+  background-color: NavajoWhite;    
   text-align: center;
 }
 </style>
