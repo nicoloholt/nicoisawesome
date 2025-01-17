@@ -3,7 +3,7 @@
 <head>
 <style>
 .myDiv {
-  border: 5px outset Ivory;
+  border: 5px outset Black;
   background-color: FireBrick;    
   text-align: center;
 }
