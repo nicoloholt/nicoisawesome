@@ -1,26 +1,24 @@
 <!DOCTYPE html>
-  <head>
-    <title>Nicolò</title>
+<html>
+<head>
 <style>
 .myDiv {
   border: 5px outset red;
-  background-color: lightblue;
+  background-color: lightblue;    
   text-align: center;
 }
 </style>
-  </head>
-  <body>
-    <main>
-<h1>1. Nicolò Holt</h1>
-<p>Nicolò Holt was born near Pordenone, Italy, to an Italian mother and and American father. </p>
-<hr />
-<p>Favorite movie: Baby Driver</p>
-<p>Favorite rapper: Kendrick Lamar</p>
+</head>
+<body>
+
+<h1>The div element</h1>
 
 <div class="myDiv">
   <h2>This is a heading in a div element</h2>
   <p>This is some text in a div element.</p>
 </div>
-    </main>
-  </body>
+
+<p>This is some text outside the div element.</p>
+
+</body>
 </html>
