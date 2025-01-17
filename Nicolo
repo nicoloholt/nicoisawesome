@@ -9,7 +9,11 @@
 <hr />
 <p>Favorite movie: Baby Driver</p>
 <p>Favorite rapper: Kendrick Lamar</p>
-      
+
+<div class="myDiv">
+  <h2>This is a heading in a div element</h2>
+  <p>This is some text in a div element.</p>
+</div>
     </main>
   </body>
 </html>
