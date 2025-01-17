@@ -4,5 +4,55 @@
 <h1>Angela </h1>
 <p>Since 2006, 28 december, she lives in torre. She enjoys yoga</p>
 <p style="background-color:DeepPink;">She like cats and gossip girl.</p>
+
+.myDiv {
+  border: 5px outset HotPink;
+  background-color: LavenderBlush;
+  text-align: center;
+}
+</style>
+</head>
+<body>
+
+<div class="myDiv">
+  <h2>Angela Bolzonello</h2>
+  <p>Chocolate Chip Cookies</p>
+</div>
+<section>
+  <h2>Ingredients</h2>
+  <p>1 cup (226g) unsalted butter, softened
+3/4 cup (150g) granulated sugar
+3/4 cup (150g) packed brown sugar
+2 teaspoons vanilla extract
+2 large eggs
+2 1/4 cups (280g) all-purpose flour
+1 teaspoon baking soda
+1/2 teaspoon salt
+2 cups (340g) semisweet chocolate chips
+</p>
+</section>
+
+<section>
+  <h2>Instructions:
+
+</h2>
+  <p>Preheat the oven to 350°F (175°C). Line baking sheets with parchment paper.
+
+Mix the wet ingredients: In a large bowl, beat the softened butter, granulated sugar, and brown sugar together until light and fluffy. Add the eggs, one at a time, mixing well after each addition. Stir in the vanilla extract.
+
+Combine the dry ingredients: In a separate bowl, whisk together the flour, baking soda, and salt.
+
+Combine wet and dry ingredients: Gradually add the dry ingredients to the wet ingredients, mixing until just combined.
+
+Add the chocolate chips: Stir in the chocolate chips, ensuring they are evenly distributed throughout the dough.
+
+Shape the cookies: Using a tablespoon or cookie scoop, drop rounded balls of dough onto the prepared baking sheets, spacing them about 2 inches apart.
+
+Bake: Bake in the preheated oven for 9-11 minutes, or until the edges are golden brown and the centers are still soft.
+
+Cool: Allow the cookies to cool on the baking sheets for a few minutes before transferring them to wire racks to cool completely.
+
+Enjoy your delicious homemade chocolate chip cookies!</p>
+</section>
 </body>
 </html>
