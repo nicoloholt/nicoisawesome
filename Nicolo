@@ -3,8 +3,8 @@
 <head>
 <style>
 .myDiv {
-  border: 5px outset red;
-  background-color: lightblue;    
+  border: 5px outset Ivory;
+  background-color: FireBrick;    
   text-align: center;
 }
 </style>
@@ -13,10 +13,10 @@
 
 <div class="myDiv">
   <h2>YOU WON'T BELIEVE HOW COOL NICOLO' HOLT IS</h2>
-  <p>Buckle up cause this is gonna be crazy!!!!!!</p>
+  <p>Buckle up cause this is gonna be crazy y'all!!!!!! </p>
 </div>
 
-<p>Did anyone mention that swag is my middle name. That's fitting, cause you will never meet a swaaaag dooog as big as me on gawd.</p>
+<p>Did anyone mention that swag is my middle name??</p>
 
 </body>
 </html>
