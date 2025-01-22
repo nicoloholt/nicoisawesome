@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>OUR GROUP</title>
     <style>
-        /* General resets */
+        /* General reset */
         * {
             margin: 0;
             padding: 0;
@@ -13,81 +13,125 @@
         }
 
         body {
-            font-family: 'Arial', sans-serif;
-            background-color: #f4f4f9;
-            color: #333;
+            font-family: 'Georgia', serif; /* Vintage, cookbook-style font */
+            background-color: #f5f3e5; /* Light parchment background */
+            color: #3e2a47; /* Dark brown for text */
             line-height: 1.6;
+            padding: 20px;
         }
 
-        /* Header Styling */
+        /* Header styling for individual sections */
         h1 {
-            font-size: 2rem;
-            color: #4CAF50;
-            margin: 20px 0;
+            font-size: 2.5rem;
+            color: #d32f2f; /* Rich red color like cookbook cover titles */
             text-align: center;
+            margin-bottom: 20px;
+            text-transform: uppercase;
+            letter-spacing: 2px;
+            font-weight: bold;
+            font-family: 'Georgia', serif; /* Make the title more vintage */
         }
 
-        /* Links Styling */
+        /* Links styled as cookbook buttons */
         a {
             text-decoration: none;
             color: #fff;
-            background-color: #007BFF;
-            padding: 10px 20px;
-            border-radius: 5px;
+            background-color: #ff7043; /* Warm orange, similar to cookbook elements */
+            padding: 12px 30px;
+            border-radius: 30px;
             display: inline-block;
-            margin-top: 10px;
             text-align: center;
-            transition: background-color 0.3s ease;
+            margin-top: 15px;
+            font-size: 1.2rem;
+            font-weight: bold;
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+            transition: background-color 0.3s ease, transform 0.2s ease;
         }
 
         a:hover {
-            background-color: #0056b3;
+            background-color: #ff5722;
+            transform: scale(1.05); /* Slight hover zoom for emphasis */
         }
 
-        /* Container Styling */
+        /* Styling for container holding all the content */
         .container {
-            max-width: 1000px;
+            max-width: 1200px;
             margin: 50px auto;
             padding: 20px;
-            background-color: white;
-            border-radius: 10px;
-            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+            background-color: #fff;
+            border-radius: 15px;
+            box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+            gap: 30px;
         }
 
+        /* Person section - image and profile link */
         .person {
-            margin-bottom: 30px;
+            background: url('https://via.placeholder.com/600x400/FF6347/FFFFFF?text=Profile+Image') no-repeat center center;
+            background-size: cover;
+            border-radius: 15px;
+            padding: 20px;
+            color: #fff;
+            text-align: center;
+            position: relative;
+            transition: transform 0.3s ease;
         }
+
+        .person:hover {
+            transform: scale(1.05); /* Hover effect for profile sections */
+        }
+
+        .person h2 {
+            font-size: 2rem;
+            margin-bottom: 20px;
+            font-family: 'Georgia', serif;
+            color: white;
+            text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5); /* Adding shadow for text clarity */
+        }
+
+        .person a {
+            position: absolute;
+            bottom: 20px;
+            left: 50%;
+            transform: translateX(-50%);
+        }
+
+        /* Title at the top of the page */
+        .page-title {
+            text-align: center;
+            font-size: 3rem;
+            color: #d32f2f;
+            font-weight: bold;
+            margin-bottom: 50px;
+            font-family: 'Georgia', serif;
+        }
+
     </style>
 </head>
 <body>
 
+    <h1 class="page-title">Meet Our Amazing Group</h1>
+
     <div class="container">
         <div class="person">
-            <h1>Nicolò</h1>
-            <a href="https://htmlpreview.github.io/?https://github.com/nicoloholt/nicoisawesome/blob/main/Nicolo" target="_blank">
-                Nicolò's Profile
-            </a>
+            <h2>Nicolò</h2>
+            <a href="https://htmlpreview.github.io/?https://github.com/nicoloholt/nicoisawesome/blob/main/Nicolo" target="_blank">Nicolò's Recipe</a>
         </div>
 
         <div class="person">
-            <h1>Angela</h1>
-            <a href="https://htmlpreview.github.io/?https://github.com/nicoloholt/nicoisawesome/blob/main/Angelaa" target="_blank">
-                Angela's Profile
-            </a>
+            <h2>Angela</h2>
+            <a href="https://htmlpreview.github.io/?https://github.com/nicoloholt/nicoisawesome/blob/main/Angelaa" target="_blank">Angela's Recipe</a>
         </div>
 
         <div class="person">
-            <h1>Vittoria</h1>
-            <a href="https://htmlpreview.github.io/?https://github.com/nicoloholt/nicoisawesome/blob/main/vittoria" target="_blank">
-                Vittoria's Profile
-            </a>
+            <h2>Vittoria</h2>
+            <a href="https://htmlpreview.github.io/?https://github.com/nicoloholt/nicoisawesome/blob/main/vittoria" target="_blank">Vittoria's Recipe</a>
         </div>
 
         <div class="person">
-            <h1>Giulia</h1>
-            <a href="https://htmlpreview.github.io/?https://github.com/nicoloholt/nicoisawesome/blob/main/Giulia" target="_blank">
-                Giulia's Profile
-            </a>
+            <h2>Giulia</h2>
+            <a href="https://htmlpreview.github.io/?https://github.com/nicoloholt/nicoisawesome/blob/main/Giulia" target="_blank">Giulia's Recipe</a>
         </div>
     </div>
 
