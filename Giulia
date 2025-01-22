@@ -5,7 +5,7 @@
 	<body>
 		<h1>Giulia </h1>
 		<p> Giulia Betti, 10 jenuary, born in Pordenone </p>
-<h1> How to make a toast </h1>
+<h1> style="background-color:SlateBlue;">How to make a toast </h1>
 <ul>
 <li>Step 1: Choose your bread (white, whole wheat, or any other type you prefer).</li>
 <li>Step 2: Place the bread in a toaster or on a grill.</li> <li>Step 3: Set the toaster to your desired level of browning.</li>
@@ -15,7 +15,7 @@
 <li>Step 7: Serve and enjoy your toast!</li>
 </ul>
 
-<img src="https://www.mangiarebuono.it/wp-content/uploads/2017/02/shutterstock_500122444.jpg" alt="foto toast" style="width:600px;height:400px;">
+<img src="https://i2.wp.com/www.piccolericette.net/piccolericette/wp-content/uploads/2017/10/681_Toast.jpg?fit=1216%2C616&ssl=1" alt="foto toast" style="width:600px;height:400px;">
 	</body>
 
 </html>
