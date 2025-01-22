@@ -2,7 +2,9 @@
 <html>
 <head>
 <style>
- style="background-color:LavenderBlush;">
+
+style="background-color:LavenderBlush;">
+
 .myDiv {
   border: 5px outset HotPink;
   background-color: LavenderBlush;
