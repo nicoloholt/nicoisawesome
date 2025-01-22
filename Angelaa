@@ -24,17 +24,14 @@ img {
 <p>Since 2006, 28 december, she lives in torre. She enjoys yoga</p>
 <p style="background-color:DeepPink;">She like cats and gossip girl.</p>
 
-<body>
 
 <div class="myDiv">
   <h2>Angela Bolzonello</h2>
   <p>Chocolate Chip Cookies</p>
 </div>
-<body>
 
 <img src="https://static01.nyt.com/images/2022/02/12/dining/JT-Chocolate-Chip-Cookies/JT-Chocolate-Chip-Cookies-threeByTwoMediumAt2X.jpg" alt="Chocolate chip cookies" style="width:600px;height:400px;">
 
-</body>
 <section>
   <h2>Ingredients</h2>
   <p> <ul>
@@ -56,7 +53,7 @@ img {
   <h2>Instructions:
 
 </h2>
-  <p>Preheat the oven to 350°F (175°C). Line baking sheets with parchment paper. <br>
+  <p> Preheat the oven to 350°F (175°C). Line baking sheets with parchment paper. <br>
 
 Mix the wet ingredients: In a large bowl, beat the softened butter, granulated sugar, and brown sugar together until light and fluffy. Add the eggs, one at a time, mixing well after each addition. Stir in the vanilla extract.<br>
 
