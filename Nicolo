@@ -25,11 +25,11 @@
   <a href="https://htmlpreview.github.io/?https://github.com/nicoloholt/nicoisawesome/blob/main/ourgroup.html" target=_self> 
   Go back to home page
   </a>
-            Check out my teammates' pages!!!
+<p style="text-align:center;">Check out my teammates' pages!!!
 <a href="https://htmlpreview.github.io/?https://github.com/nicoloholt/nicoisawesome/blob/main/Angelaa" target=_blank>
   Angela
    </a>
-</strong>
+</p>
  
 <a href="https://htmlpreview.github.io/?https://github.com/nicoloholt/nicoisawesome/blob/main/vittoria" target=_blank>
   Vittoria
@@ -39,7 +39,7 @@
   Giulia
   </a>
 </p>
-
+</strong>
 <p> This is a photo of me!!!</p>
 <img src="https://th.bing.com/th/id/OIP.c3Hnp0FUHQlqrlKC7m6gTwHaHk?w=198&h=200&c=7&r=0&o=5&pid=1.7" alt="elmo">
 
