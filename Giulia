@@ -14,16 +14,36 @@
 <li>Step 6: Optional – Add toppings such as butter, jam, or other spreads.</li>
 <li>Step 7: Serve and enjoy your toast!</li>
  
-<body>
-
-<span style='font-size:100px;'>&#128523;</span>
-<p> &#128523;</p>
-</body>
 <style>
 body {
   font-size: 20px;
 }
 </style>
+<body>
+
+<span style='font-size:100px;'>&#128523;</span>
+<p>I will display &#128523;</p>
+<p>I will display &#x1F60B;</p>
+
+</body>
+
+
+<style>
+body {
+  font-size: 20px;
+}
+</style>
+<body>
+
+<span style='font-size:100px;'>&#129316;</span>
+<p>I will display &#129316;</p>
+<p>I will display &#x1F924;</p>
+
+</body>
+
+
+
+
 </ul> 
 
 
