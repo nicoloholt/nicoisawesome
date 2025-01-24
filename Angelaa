@@ -26,24 +26,6 @@
       margin: 0;
     }
 
-    .intro {
-      text-align: center;
-      padding: 20px;
-      max-width: 800px;
-      margin: 0 auto;
-    }
-
-    .intro h2 {
-      font-size: 2em;
-      color: #FF69B4;
-    }
-
-    .intro p {
-      font-size: 1.1em;
-      line-height: 1.6;
-      margin: 10px 0;
-    }
-
     .recipe-card {
       background-color: #FFF;
       border-radius: 8px;
@@ -110,6 +92,24 @@
     footer a:hover {
       text-decoration: underline;
     }
+
+    .intro {
+      text-align: center;
+      padding: 20px;
+      max-width: 800px;
+      margin: 0 auto;
+    }
+
+    .intro h2 {
+      font-size: 2em;
+      color: #FF69B4;
+    }
+
+    .intro p {
+      font-size: 1.1em;
+      line-height: 1.6;
+      margin: 10px 0;
+    }
   </style>
 </head>
 <body>
@@ -120,7 +120,7 @@
 
 <div class="recipe-card">
   <h2>Chocolate Chip Cookies</h2>
-  <p>A delicious homemade chocolate chip cookie recipe!.</p>
+  <p>A delicious homemade chocolate chip cookie recipe that’s sure to satisfy your sweet tooth.</p>
 </div>
 
 <center>
@@ -169,4 +169,5 @@
 
 </body>
 </html>
+
 
