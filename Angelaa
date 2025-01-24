@@ -1,7 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
@@ -13,6 +12,9 @@
       margin: 0;
       padding: 0;
       color: #333;
+      min-height: 100vh;
+      display: flex;
+      flex-direction: column;
     }
 
     header {
@@ -25,24 +27,6 @@
     header h1 {
       font-size: 2.5em;
       margin: 0;
-    }
-
-    .intro {
-      text-align: center;
-      padding: 20px;
-      max-width: 800px;
-      margin: 0 auto;
-    }
-
-    .intro h2 {
-      font-size: 2em;
-      color: #FF69B4;
-    }
-
-    .intro p {
-      font-size: 1.1em;
-      line-height: 1.6;
-      margin: 10px 0;
     }
 
     .recipe-card {
@@ -96,10 +80,10 @@
       background-color: #FF69B4;
       color: white;
       text-align: center;
-      padding: 10px 0;
-      position: fixed;
-      bottom: 0;
+      padding: 20px 0;
+      position: relative;
       width: 100%;
+      margin-top: auto; /* Ensures footer is pushed to the bottom */
     }
 
     footer a {
@@ -111,6 +95,29 @@
     footer a:hover {
       text-decoration: underline;
     }
+
+    .intro {
+      text-align: center;
+      padding: 20px;
+      max-width: 800px;
+      margin: 0 auto;
+    }
+
+    .intro h2 {
+      font-size: 2em;
+      color: #FF69B4;
+    }
+
+    .intro p {
+      font-size: 1.1em;
+      line-height: 1.6;
+      margin: 10px 0;
+    }
+
+    /* Ensure the footer doesn't overlap with the content */
+    .content {
+      flex-grow: 1; /* Allow content to expand and push footer to the bottom */
+    }
   </style>
 </head>
 <body>
@@ -118,11 +125,6 @@
 <header>
   <h1>Angela's Cookie Corner</h1>
 </header>
-
-<section class="intro">
-  <h2>About Angela</h2>
-  <p>Since December 28th, 2006, Angela has lived in Torre. She enjoys practicing yoga, and she’s a big fan of cats and Gossip Girl.</p>
-</section>
 
 <div class="recipe-card">
   <h2>Chocolate Chip Cookies</h2>
@@ -162,6 +164,11 @@
     <li>Cool: Allow the cookies to cool on the baking sheets for a few minutes before transferring them to wire racks to cool completely.</li>
   </ol>
   <p>Enjoy your delicious homemade chocolate chip cookies!</p>
+</section>
+
+<section class="intro">
+  <h2>About Angela</h2>
+  <p>Since December 28th, 2006, Angela has lived in Torre. She enjoys practicing yoga, and she’s a big fan of cats and Gossip Girl.</p>
 </section>
 
 <footer>
