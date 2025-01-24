@@ -118,11 +118,6 @@
   <h1>Angela's Cookie Corner</h1>
 </header>
 
-<section class="intro">
-  <h2>About Angela</h2>
-  <p>Since December 28th, 2006, Angela has lived in Torre. She enjoys practicing yoga, and she’s a big fan of cats and Gossip Girl.</p>
-</section>
-
 <div class="recipe-card">
   <h2>Chocolate Chip Cookies</h2>
   <p>A delicious homemade chocolate chip cookie recipe that’s sure to satisfy your sweet tooth.</p>
@@ -161,6 +156,11 @@
     <li>Cool: Allow the cookies to cool on the baking sheets for a few minutes before transferring them to wire racks to cool completely.</li>
   </ol>
   <p>Enjoy your delicious homemade chocolate chip cookies!</p>
+</section>
+
+<section class="intro">
+  <h2>About Angela</h2>
+  <p>Since December 28th, 2006, Angela has lived in Torre. She enjoys practicing yoga, and she’s a big fan of cats and Gossip Girl.</p>
 </section>
 
 <footer>
