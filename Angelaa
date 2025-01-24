@@ -15,6 +15,7 @@
       min-height: 100vh;
       display: flex;
       flex-direction: column;
+      padding-bottom: 80px; /* Ensure space for the fixed footer */
     }
 
     header {
@@ -113,11 +114,6 @@
       line-height: 1.6;
       margin: 10px 0;
     }
-
-    /* To make sure the footer stays fixed */
-    .content {
-      flex: 1; /* This will push the footer to the bottom */
-    }
   </style>
 </head>
 <body>
@@ -170,8 +166,6 @@
   <h2>About Angela</h2>
   <p>Since December 28th, 2006, Angela has lived in Torre. She enjoys practicing yoga, and she’s a big fan of cats and Gossip Girl.</p>
 </section>
-
-<div class="content"></div> <!-- This will push footer to the bottom -->
 
 <footer>
   <p><a href="https://htmlpreview.github.io/?https://github.com/nicoloholt/nicoisawesome/blob/main/ourgroup.html">Go back to home page</a></p>
