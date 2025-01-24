@@ -1,77 +1,171 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-<style>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Angela's Cookie Recipe</title>
+  <style>
+    body {
+      font-family: 'Arial', sans-serif;
+      background-color: #FFF0F5;
+      margin: 0;
+      padding: 0;
+      color: #333;
+    }
 
-.myDiv {
-  border: 5px outset HotPink;
-  background-color: LavenderBlush;
-  text-align: center;
-} 
+    header {
+      background-color: #FF69B4;
+      padding: 20px 0;
+      text-align: center;
+      color: white;
+    }
 
-</style>
+    header h1 {
+      font-size: 2.5em;
+      margin: 0;
+    }
+
+    .intro {
+      text-align: center;
+      padding: 20px;
+      max-width: 800px;
+      margin: 0 auto;
+    }
+
+    .intro h2 {
+      font-size: 2em;
+      color: #FF69B4;
+    }
+
+    .intro p {
+      font-size: 1.1em;
+      line-height: 1.6;
+      margin: 10px 0;
+    }
+
+    .recipe-card {
+      background-color: #FFF;
+      border-radius: 8px;
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+      text-align: center;
+      padding: 20px;
+      margin: 20px auto;
+      width: 80%;
+      max-width: 600px;
+    }
+
+    .recipe-card h2 {
+      color: #FF69B4;
+      font-size: 1.8em;
+      margin-bottom: 10px;
+    }
+
+    .recipe-card p {
+      font-size: 1.2em;
+      line-height: 1.5;
+    }
+
+    section h2 {
+      font-size: 1.8em;
+      color: #FF69B4;
+      margin-bottom: 10px;
+    }
+
+    ul {
+      list-style-type: disc;
+      margin-left: 20px;
+      font-size: 1.1em;
+    }
+
+    section {
+      padding: 20px;
+      max-width: 900px;
+      margin: 0 auto;
+    }
+
+    img {
+      max-width: 100%;
+      height: auto;
+      border-radius: 8px;
+      margin: 20px 0;
+    }
+
+    footer {
+      background-color: #FF69B4;
+      color: white;
+      text-align: center;
+      padding: 10px 0;
+      position: fixed;
+      bottom: 0;
+      width: 100%;
+    }
+
+    footer a {
+      color: white;
+      text-decoration: none;
+      font-weight: bold;
+    }
+
+    footer a:hover {
+      text-decoration: underline;
+    }
+  </style>
 </head>
+<body>
 
-<body style="background-color:LavanderBlush;">
+<header>
+  <h1>Angela's Cookie Corner</h1>
+</header>
 
-<h1>Angela </h1>
-<p>Since 2006, 28 december, she lives in torre. She enjoys yoga</p>
-<p>She like cats and gossip girl.</p>
+<section class="intro">
+  <h2>About Angela</h2>
+  <p>Since December 28th, 2006, Angela has lived in Torre. She enjoys practicing yoga, and she’s a big fan of cats and Gossip Girl.</p>
+</section>
 
-
-<div class="myDiv">
-  <h2>Angela Bolzonello</h2>
-  <p>Chocolate Chip Cookies</p>
+<div class="recipe-card">
+  <h2>Chocolate Chip Cookies</h2>
+  <p>A delicious homemade chocolate chip cookie recipe that’s sure to satisfy your sweet tooth.</p>
 </div>
 
 <center>
-<img src="https://static01.nyt.com/images/2022/02/12/dining/JT-Chocolate-Chip-Cookies/JT-Chocolate-Chip-Cookies-threeByTwoMediumAt2X.jpg" alt="Chocolate chip cookies" style="width:600px;height:400px;">
-
+  <img src="https://static01.nyt.com/images/2022/02/12/dining/JT-Chocolate-Chip-Cookies/JT-Chocolate-Chip-Cookies-threeByTwoMediumAt2X.jpg" alt="Freshly baked chocolate chip cookies" style="width:600px;height:400px;">
+</center>
 
 <section>
   <h2>Ingredients</h2>
-  <p> <ul>
-  <li>1 cup (226g) unsalted butter, softened</li>
-  <li>3/4 cup (150g) granulated sugar</li>
-  <li>3/4 cup (150g) packed brown sugar</li>
-  <li>2 teaspoons vanilla extract</li>
-  <li>2 large eggs</li>
-  <li>2 1/4 cups (280g) all-purpose flour</li>
-  <li>1 teaspoon baking soda</li>
-  <li>1/2 teaspoon salt</li>
-  <li>2 cups (340g) semisweet chocolate chips</li>
+  <ul>
+    <li>1 cup (226g) unsalted butter, softened</li>
+    <li>3/4 cup (150g) granulated sugar</li>
+    <li>3/4 cup (150g) packed brown sugar</li>
+    <li>2 teaspoons vanilla extract</li>
+    <li>2 large eggs</li>
+    <li>2 1/4 cups (280g) all-purpose flour</li>
+    <li>1 teaspoon baking soda</li>
+    <li>1/2 teaspoon salt</li>
+    <li>2 cups (340g) semisweet chocolate chips</li>
   </ul>
-
-</p>
 </section>
 
 <section>
-  <h2>Instructions:
-
-</h2>
-  <p> Preheat the oven to 350°F (175°C). Line baking sheets with parchment paper. <br>
-
-Mix the wet ingredients: In a large bowl, beat the softened butter, granulated sugar, and brown sugar together until light and fluffy. Add the eggs, one at a time, mixing well after each addition. Stir in the vanilla extract.<br>
-
-Combine the dry ingredients: In a separate bowl, whisk together the flour, baking soda, and salt.<br>
-
-Combine wet and dry ingredients: Gradually add the dry ingredients to the wet ingredients, mixing until just combined.<br>
-
-Add the chocolate chips: Stir in the chocolate chips, ensuring they are evenly distributed throughout the dough.<br>
-
-Shape the cookies: Using a tablespoon or cookie scoop, drop rounded balls of dough onto the prepared baking sheets, spacing them about 2 inches apart.<br>
-
-Bake: Bake in the preheated oven for 9-11 minutes, or until the edges are golden brown and the centers are still soft.<br>
-
-Cool: Allow the cookies to cool on the baking sheets for a few minutes before transferring them to wire racks to cool completely.<br>
-
-Enjoy your delicious homemade chocolate chip cookies!</p>
+  <h2>Instructions</h2>
+  <p>Follow these steps to make the perfect chocolate chip cookies:</p>
+  <ol>
+    <li>Preheat the oven to 350°F (175°C). Line baking sheets with parchment paper.</li>
+    <li>Mix the wet ingredients: In a large bowl, beat the softened butter, granulated sugar, and brown sugar together until light and fluffy. Add the eggs, one at a time, mixing well after each addition. Stir in the vanilla extract.</li>
+    <li>Combine the dry ingredients: In a separate bowl, whisk together the flour, baking soda, and salt.</li>
+    <li>Gradually add the dry ingredients to the wet ingredients, mixing until just combined.</li>
+    <li>Stir in the chocolate chips, ensuring they are evenly distributed throughout the dough.</li>
+    <li>Shape the cookies: Using a tablespoon or cookie scoop, drop rounded balls of dough onto the prepared baking sheets, spacing them about 2 inches apart.</li>
+    <li>Bake: Bake in the preheated oven for 9-11 minutes, or until the edges are golden brown and the centers are still soft.</li>
+    <li>Cool: Allow the cookies to cool on the baking sheets for a few minutes before transferring them to wire racks to cool completely.</li>
+  </ol>
+  <p>Enjoy your delicious homemade chocolate chip cookies!</p>
 </section>
-</center>
-<p>
-  <a href="https://htmlpreview.github.io/?https://github.com/nicoloholt/nicoisawesome/blob/main/ourgroup.html" target=_self> 
-  Go back to home page
-  </a>
-</p>
+
+<footer>
+  <p><a href="https://htmlpreview.github.io/?https://github.com/nicoloholt/nicoisawesome/blob/main/ourgroup.html">Go back to home page</a></p>
+</footer>
+
 </body>
 </html>
