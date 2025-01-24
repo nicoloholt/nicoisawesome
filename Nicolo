@@ -98,14 +98,14 @@
     Are you bored and want to go back to the home page? 
     <a href="https://htmlpreview.github.io/?https://github.com/nicoloholt/nicoisawesome/blob/main/ourgroup.html" target="_self">Go back to home page</a>
   </strong>
-  <p>Check out my teammates' pages!</p>
+  <p style="text-align:center;">Check out my teammates' pages!</p>
   <a href="https://htmlpreview.github.io/?https://github.com/nicoloholt/nicoisawesome/blob/main/Angelaa" target="_blank">Angela</a> | 
   <a href="https://htmlpreview.github.io/?https://github.com/nicoloholt/nicoisawesome/blob/main/vittoria" target="_blank">Vittoria</a> | 
   <a href="https://htmlpreview.github.io/?https://github.com/nicoloholt/nicoisawesome/blob/main/Giulia" target="_blank">Giulia</a>
 </div>
 
 <footer>
-  <p>© 2025 Delicious Carbonara Recipe. All rights reserved.</p>
+  <p style="text-align:left;">© 2025 Delicious Carbonara Recipe. All rights reserved.</p>
 </footer>
 
 </body>
