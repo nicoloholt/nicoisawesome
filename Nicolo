@@ -3,35 +3,36 @@
 <head>
 <style>
   body {
-    font-family: Arial, sans-serif;
+    font-family: 'Georgia', serif;
+    background-color: #f0f8ff;
+    color: #333;
+    margin: 0;
+    padding: 0;
   }
+
   .hello {
-    border: 5px outset Black;
-    background-color: DarkSeaGreen;    
+    background-color: #2a4d6f; /* Elegant deep blue */
+    color: white;
     text-align: center;
-    padding: 20px;
+    padding: 30px;
+    border-bottom: 5px solid #1f3a4d;
+    margin-bottom: 40px;
   }
 
-  .recipe-section {
-    text-align: center;
-    margin: 20px 0;
-  }
-
-  .recipe-section img {
-    width: 100%;
-    max-width: 600px;
-    height: auto;
-    margin-bottom: 20px;
+  h2 {
+    font-size: 28px;
+    font-weight: normal;
   }
 
   p {
-    font-size: 16px;
-    line-height: 1.6;
+    font-size: 18px;
+    line-height: 1.8;
     text-align: justify;
+    margin: 0 20px 20px;
   }
 
   a {
-    color: DarkSlateGray;
+    color: #1f3a4d; /* Deep blue */
     text-decoration: none;
     font-weight: bold;
   }
@@ -39,23 +40,41 @@
   a:hover {
     text-decoration: underline;
   }
+
+  .recipe-section {
+    text-align: center;
+    margin: 40px 0;
+  }
+
+  .recipe-section img {
+    width: 100%;
+    max-width: 700px;
+    height: auto;
+    border-radius: 8px;
+    margin-bottom: 20px;
+    border: 2px solid #1f3a4d; /* Adding a classy border */
+  }
+
+  .links-container {
+    text-align: center;
+    margin: 30px 0;
+    font-size: 18px;
+  }
+
+  .links-container a {
+    margin: 0 15px;
+  }
+
+  footer {
+    background-color: #2a4d6f;
+    color: white;
+    text-align: center;
+    padding: 15px;
+    font-size: 16px;
+  }
 </style>
 </head>
 <body>
-
-<strong>
-  Are you bored and want to go back to the home page?
-  <a href="https://htmlpreview.github.io/?https://github.com/nicoloholt/nicoisawesome/blob/main/ourgroup.html" target="_self"> 
-    Go back to home page
-  </a>
-</strong>
-
-<p style="text-align:center;">
-  Check out my teammates' pages!!!
-  <a href="https://htmlpreview.github.io/?https://github.com/nicoloholt/nicoisawesome/blob/main/Angelaa" target="_blank">Angela</a> |
-  <a href="https://htmlpreview.github.io/?https://github.com/nicoloholt/nicoisawesome/blob/main/vittoria" target="_blank">Vittoria</a> |
-  <a href="https://htmlpreview.github.io/?https://github.com/nicoloholt/nicoisawesome/blob/main/Giulia" target="_blank">Giulia</a>
-</p>
 
 <div class="hello">
   <h2>TUTORIAL ON HOW TO MAKE PASTA ALLA CARBONARA CAUSE I'M LOWKEY HUNGRY</h2>
@@ -71,6 +90,21 @@
   <p>Pour the pieces of guanciale into a non-stick pan (4) and sauté for about 10 minutes over medium-high heat, being careful not to burn it, as this would release too strong a flavor. Meanwhile, drop the spaghetti into the boiling water (5) and cook them al dente. In the meantime, pour the egg yolks into a bowl (6).</p>
   <img src="https://ricette.giallozafferano.it/images/ricette/244/24489/24489_draft-spaghetti-alla-carbonara_strip_4-6.jpg" alt="Carbonara preparation steps 4-6">
 </div>
+
+<div class="links-container">
+  <strong>
+    Are you bored and want to go back to the home page? 
+    <a href="https://htmlpreview.github.io/?https://github.com/nicoloholt/nicoisawesome/blob/main/ourgroup.html" target="_self">Go back to home page</a>
+  </strong>
+  <p>Check out my teammates' pages!</p>
+  <a href="https://htmlpreview.github.io/?https://github.com/nicoloholt/nicoisawesome/blob/main/Angelaa" target="_blank">Angela</a> | 
+  <a href="https://htmlpreview.github.io/?https://github.com/nicoloholt/nicoisawesome/blob/main/vittoria" target="_blank">Vittoria</a> | 
+  <a href="https://htmlpreview.github.io/?https://github.com/nicoloholt/nicoisawesome/blob/main/Giulia" target="_blank">Giulia</a>
+</div>
+
+<footer>
+  <p>© 2025 Delicious Carbonara Recipe. All rights reserved.</p>
+</footer>
 
 </body>
 </html>
