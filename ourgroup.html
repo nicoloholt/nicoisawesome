@@ -139,8 +139,65 @@
         </div>
     </div>
 
-     <div class="container">
-        
-    </div>
+<div class="row">
+  <div class="column">
+    <img src="wedding.jpg">
+    <img src="rocks.jpg">
+    <img src="falls2.jpg">
+    <img src="paris.jpg">
+    <img src="nature.jpg">
+    <img src="mist.jpg">
+    <img src="paris.jpg">
+  </div>
+  <div class="column">
+    <img src="underwater.jpg">
+    <img src="ocean.jpg">
+    <img src="wedding.jpg">
+    <img src="mountainskies.jpg">
+    <img src="rocks.jpg">
+    <img src="underwater.jpg">
+  </div>
+  <div class="column">
+    <img src="wedding.jpg">
+    <img src="rocks.jpg">
+    <img src="falls2.jpg">
+    <img src="paris.jpg">
+    <img src="nature.jpg">
+    <img src="mist.jpg">
+    <img src="paris.jpg">
+  </div>
+  <div class="column">
+    <img src="underwater.jpg">
+    <img src="ocean.jpg">
+    <img src="wedding.jpg">
+    <img src="mountainskies.jpg">
+    <img src="rocks.jpg">
+    <img src="underwater.jpg">
+  </div>
+</div>
+
+    .row {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 0 4px;
+}
+
+
+.column img {
+  margin-top: 8px;
+  vertical-align: middle;
+  width: 100%;
+}
+
+/* Responsive layout - makes a two column-layout instead of four columns */
+@media screen and (max-width: 800px) {
+  .column {
+    flex: 50%;
+    max-width: 50%;
+  }
+}
+
+  }
+}
 </body>
 </html>
