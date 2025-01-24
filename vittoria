@@ -74,6 +74,17 @@
         <li>Cool and serve. Let the cake cool in the pan for 10 minutes before transferring it to a wire rack to cool completely.</li>
         <li>Dust with powdered sugar. Once the cake is completely cool, dust the top with powdered sugar for an elegant finish.</li>
     </ol>
+
+<div class="links-container">
+  <strong>
+    Are you bored and want to go back to the home page? 
+    <a href="https://htmlpreview.github.io/?https://github.com/nicoloholt/nicoisawesome/blob/main/ourgroup.html" target="_self">Go back to home page</a>
+  </strong>
+  <p>Check out my teammates' pages!</p>  
+  <a href="https://htmlpreview.github.io/?https://github.com/nicoloholt/nicoisawesome/blob/main/Nicolo" target="_blank">Nicolò</a> | 
+  <a href="https://htmlpreview.github.io/?https://github.com/nicoloholt/nicoisawesome/blob/main/Angelaa" target="_blank">Angela</a> | 
+  <a href="https://htmlpreview.github.io/?https://github.com/nicoloholt/nicoisawesome/blob/main/Giulia" target="_blank">Giulia</a>
+</div>
 </body>
 </html>
 
