@@ -4,7 +4,44 @@
 <body>
 <h1>Vittoria </h1>
  
- <h1>Vittoria</h1>
+<h1>Vittoria</h1>
+
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ricotta and Chocolate Cake</title>
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            background-color: #f9f2f6;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+        }
+        h1 {
+            font-size: 3rem;
+            text-align: center;
+            color: #e91e63; /* Rosa brillante */
+            text-transform: uppercase;
+            letter-spacing: 2px;
+            background: linear-gradient(to right, #f06292, #ec407a); /* Gradiente rosa */
+            -webkit-background-clip: text;
+            color: transparent;
+            text-shadow: 2px 2px 10px rgba(0, 0, 0, 0.1);
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.1);
+        }
+    </style>
+</head>
+<body>
+    <h1>Ricotta and Chocolate Cake</h1>
+</body>
+</html>
 
 <p style="background-color:Violet;">She Love rauscedo wine on god </p>
   <h2 style="background-color:rgb(238, 130, 238);">She Love rauscedo wine on god</h2>
