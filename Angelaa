@@ -26,7 +26,7 @@
 
 <center>
 <img src="https://static01.nyt.com/images/2022/02/12/dining/JT-Chocolate-Chip-Cookies/JT-Chocolate-Chip-Cookies-threeByTwoMediumAt2X.jpg" alt="Chocolate chip cookies" style="width:600px;height:400px;">
-</center>
+
 
 <section>
   <h2>Ingredients</h2>
@@ -67,6 +67,7 @@ Cool: Allow the cookies to cool on the baking sheets for a few minutes before tr
 
 Enjoy your delicious homemade chocolate chip cookies!</p>
 </section>
+</center>
 <p>
   <a href="https://htmlpreview.github.io/?https://github.com/nicoloholt/nicoisawesome/blob/main/ourgroup.html" target=_self> 
   Go back to home page
