@@ -12,10 +12,6 @@
       margin: 0;
       padding: 0;
       color: #333;
-      min-height: 100vh;
-      display: flex;
-      flex-direction: column;
-      padding-bottom: 80px; /* Ensure space for the fixed footer */
     }
 
     header {
@@ -28,6 +24,24 @@
     header h1 {
       font-size: 2.5em;
       margin: 0;
+    }
+
+    .intro {
+      text-align: center;
+      padding: 20px;
+      max-width: 800px;
+      margin: 0 auto;
+    }
+
+    .intro h2 {
+      font-size: 2em;
+      color: #FF69B4;
+    }
+
+    .intro p {
+      font-size: 1.1em;
+      line-height: 1.6;
+      margin: 10px 0;
     }
 
     .recipe-card {
@@ -81,7 +95,7 @@
       background-color: #FF69B4;
       color: white;
       text-align: center;
-      padding: 20px 0;
+      padding: 10px 0;
       position: fixed;
       bottom: 0;
       width: 100%;
@@ -95,24 +109,6 @@
 
     footer a:hover {
       text-decoration: underline;
-    }
-
-    .intro {
-      text-align: center;
-      padding: 20px;
-      max-width: 800px;
-      margin: 0 auto;
-    }
-
-    .intro h2 {
-      font-size: 2em;
-      color: #FF69B4;
-    }
-
-    .intro p {
-      font-size: 1.1em;
-      line-height: 1.6;
-      margin: 10px 0;
     }
   </style>
 </head>
@@ -129,7 +125,7 @@
 
 <div class="recipe-card">
   <h2>Chocolate Chip Cookies</h2>
-  <p>A delicious homemade chocolate chip cookie recipe!</p>
+  <p>A delicious homemade chocolate chip cookie recipe that’s sure to satisfy your sweet tooth.</p>
 </div>
 
 <center>
@@ -166,7 +162,6 @@
   </ol>
   <p>Enjoy your delicious homemade chocolate chip cookies!</p>
 </section>
-
 
 <footer>
   <p><a href="https://htmlpreview.github.io/?https://github.com/nicoloholt/nicoisawesome/blob/main/ourgroup.html">Go back to home page</a></p>
