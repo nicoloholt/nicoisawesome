@@ -13,17 +13,11 @@
 <li>Step 5: Carefully remove the toast from the toaster using tongs or your fingers (it may be hot).</li>
 <li>Step 6: Optional – Add toppings such as butter, jam, or other spreads.</li>
 <li>Step 7: Serve and enjoy your toast!</li>
-  <style>
-body {
-  font-size: 20px;
-}
-</style>
+ 
 <body>
 
 <span style='font-size:100px;'>&#128523;</span>
-<p>I will display &#128523;</p>
-<p>I will display &#x1F60B;</p>
-
+<p> &#128523;</p>
 </body>
 </ul> 
 
